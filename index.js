@@ -8,7 +8,7 @@ bot.on("ready", fonction() {
 	console.log("Connectedç");
 });
 
-bot.login("NDA1Nzg4MTA5MDE2Mzk5ODgz.DV78wQ.mevtJFChDyQgBP7FeGaCMopz0PA");
+bot.login("process.env.TOKEN");
 
 bot.on('message', message => {
 	if (message.content === prefix + "help"){
