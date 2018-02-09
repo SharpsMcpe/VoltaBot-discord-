@@ -5,7 +5,7 @@ var prefix("*")
 
 bot.on("ready", fonction() {
 	bot.uset.setGame("Command: *help");
-	console.log("Connectedç");
+	console.log("Connected");
 });
 
 bot.login(process.env.TOKEN);
